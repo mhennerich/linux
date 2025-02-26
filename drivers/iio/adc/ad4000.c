@@ -152,6 +152,10 @@ static const struct ad4000_chip_info ad4000_chip_info = {
 	.max_rate_hz  = 2 * MEGA,
 };
 
+
+
+
+
 static const struct ad4000_chip_info ad4001_chip_info = {
 	.dev_name = "ad4001",
 	.chan_spec = AD4000_DIFF_CHANNELS('s', 16, 0, 0),
