@@ -577,6 +577,11 @@ static int ad4000_write_raw(struct iio_dev *indio_dev,
 				return ret;
 
 			st->span_comp = span_comp_en;
+
+
+
+
+			
 			return 0;
 		}
 		unreachable();
